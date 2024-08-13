@@ -1,0 +1,17 @@
+1. instalar ollama
+2. verificar que ollama este corriendo, generalmente en el puerto 11434
+   curl  http://localhost:11434/api/generate -d '{ "model": "llama3", "prompt": "Tell me a joke", "stream":false }'
+3. crear la carpeta del proyecto
+4. ingresar al proyecto desde vscod (proyectotfmflask)
+5. Desde un terminal ejecutar: python -m venv venv
+   venv se utiliza para instalar paquetes y dependencias de Python específicos para un proyecto sin afectar al entorno de Python global del sistema
+6. Activamos el entorno: venv\Scripts\activate
+7. 
+
+
+
+
+
+para generar requeriments.txt
+pip install pipreqs
+pipreqs

@@ -1,0 +1,6 @@
+Flask==3.0.3
+langchain==0.1.17
+langchain_community==0.0.36
+langchain_openai==0.1.5
+langchain_text_splitters==0.0.1
+PyPDF2==3.0.1
